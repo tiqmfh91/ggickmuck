@@ -1,7 +1,7 @@
 from sqlalchemy import *
 from sqlalchemy.orm import sessionmaker
 
-DB_URL = 'mysql+pymysql://food:ggickmuck12#$@141.147.150.25:3306/ggickmuck?charset=utf8mb4'
+DB_URL = 'mysql+pymysql://?charset=utf8mb4'
 
 class engineconn:
 
